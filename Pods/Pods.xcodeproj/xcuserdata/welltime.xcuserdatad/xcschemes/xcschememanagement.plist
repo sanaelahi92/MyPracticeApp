@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FSCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyPracticeApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyPracticeAppTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyPracticeAppUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2FEADC4F9E491CBCE6B4B653475AAD5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>665352641DE40EC7B3606E5E2F2002E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CCD613169C9AB1061AA5B7350F9A9C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5771E2E797B5707DAAB92A0611BA93C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F12DCF234C1A248FE8F3ECF458BDAFA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

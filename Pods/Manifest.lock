@@ -1,0 +1,25 @@
+PODS:
+  - CardIO (5.3.1)
+  - FSCalendar (1.8.0)
+  - PayPal-iOS-SDK (2.13.1):
+    - PayPal-iOS-SDK/CardIO (= 2.13.1)
+    - PayPal-iOS-SDK/Core (= 2.13.1)
+  - PayPal-iOS-SDK/CardIO (2.13.1):
+    - CardIO (~> 5.3.1)
+  - PayPal-iOS-SDK/Core (2.13.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - FSCalendar
+  - PayPal-iOS-SDK
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  CardIO: a299efcd0348c3b256a1da53f22951319c3855a2
+  FSCalendar: a283f4d9c4249a0ce43a08c3f4f7ad27b295e4cf
+  PayPal-iOS-SDK: fc36f26c818d31b014044ec0b22c0861b2fe733f
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: c21651df6e957af01019fdfbdaf5e093ddcca454
+
+COCOAPODS: 1.0.1
