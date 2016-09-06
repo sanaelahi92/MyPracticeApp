@@ -8,7 +8,6 @@
 
 import UIKit
 import FSCalendar
-import SwiftyJSON
 
 class MyDiaryViewController: UIViewController, FSCalendarDataSource, FSCalendarDelegate ,UITableViewDelegate, UITableViewDataSource{
     

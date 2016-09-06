@@ -6,7 +6,7 @@ target 'MyPracticeApp' do
   use_frameworks!
   pod 'FSCalendar'
  pod 'PayPal-iOS-SDK'
-pod 'SwiftyJSON'
+
   # Pods for MyPracticeApp
 
   target 'MyPracticeAppTests' do

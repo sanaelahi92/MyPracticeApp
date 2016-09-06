@@ -317,6 +317,7 @@
 				TargetAttributes = {
 					3DB122E11D140D0E003E3CFD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M7FD65CYM8;
 					};
 					3DB122F51D140D0E003E3CFD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -670,6 +671,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = M7FD65CYM8;
 				INFOPLIST_FILE = MyPracticeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WT.MyPracticeApp;
@@ -685,6 +688,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = M7FD65CYM8;
 				INFOPLIST_FILE = MyPracticeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WT.MyPracticeApp;
