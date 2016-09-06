@@ -117,7 +117,7 @@ loadData()
         // Make the POST call and handle it in a completion handler
         session.dataTaskWithRequest(request, completionHandler: { ( data: NSData?, response: NSURLResponse?, error: NSError?) -> Void in
             // Make sure we get an OK response
-            guard let realResponse = response as? NSHTTPURLResponse  ,
+            guard let realResponse = response as? NSHTTPURLResponse   where
                 realResponse.statusCode == 200 else {
                     print("Not a 200 response")
                     print(error?.code)

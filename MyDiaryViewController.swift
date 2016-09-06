@@ -116,9 +116,17 @@ Calendar.scope = .Week
         let url = NSURL(string: postEndpoint)!
         let session = NSURLSession.sharedSession()
         
-        let json = JSON(["SearchStartDate":"2016-08-01T00:00:00Z", "SearchEndDate":"2016-08-30T00:00:00Z","Service":["ServiceCode":1,"DefaultDuration":"PT30M"],"Customer":["CustomerType":["CustomerTypeCode":"P"]]])
-        print(json)
+        let service=["ServiceCode":"1","DefaultDuration":"PT30M"]
         
+        let customerTypeCode=["CustomerTypeCode":"P"]
+        
+        let customer=["CustomerType":customerTypeCode]
+        
+        
+        
+        let dic = ["SearchStartDate":"2016-08-01T00:00:00Z","SearchEndDate":"2016-09-05T00:00:00Z","Service":service,"Customer":customer]
+        
+              
        
         
         // Create the request
@@ -131,8 +139,8 @@ Calendar.scope = .Week
         request.setValue("ds8223.dedicated.turbodns.co.uk", forHTTPHeaderField: "Host")
         
         do {
-            let jsonObject: AnyObject = json.object
-            request.HTTPBody = try NSJSONSerialization.dataWithJSONObject(jsonObject, options: NSJSONWritingOptions())
+         
+            request.HTTPBody = try NSJSONSerialization.dataWithJSONObject(dic, options: NSJSONWritingOptions.PrettyPrinted)
             
         } catch {
             print("bad things happened")
