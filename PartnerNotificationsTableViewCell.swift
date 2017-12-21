@@ -1,14 +1,14 @@
 //
-//  FreeSlotsTableViewCell.swift
+//  PartnerNotificationsTableViewCell.swift
 //  MyPracticeApp
 //
-//  Created by Welltime on 21/09/2016.
-//  Copyright © 2016 Welltime. All rights reserved.
+//  Created by Welltime on 25/07/2017.
+//  Copyright © 2017 Welltime. All rights reserved.
 //
 
 import UIKit
 
-class FreeSlotsTableViewCell: UITableViewCell {
+class PartnerNotificationsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -1,14 +1,14 @@
 //
-//  FreeSlotsTableViewCell.swift
+//  ColorPickerTableViewCell.swift
 //  MyPracticeApp
 //
-//  Created by Welltime on 21/09/2016.
+//  Created by Welltime on 14/12/2016.
 //  Copyright © 2016 Welltime. All rights reserved.
 //
 
 import UIKit
 
-class FreeSlotsTableViewCell: UITableViewCell {
+class ColorPickerTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

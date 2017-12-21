@@ -1,5 +1,5 @@
 //
-//  FreeSlotsTableViewCell.swift
+//  AppointmentsTableViewCell.swift
 //  MyPracticeApp
 //
 //  Created by Welltime on 21/09/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FreeSlotsTableViewCell: UITableViewCell {
+class AppointmentsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -1,14 +1,14 @@
 //
-//  FreeSlotsTableViewCell.swift
+//  TreatmentsTypeTableViewCell.swift
 //  MyPracticeApp
 //
-//  Created by Welltime on 21/09/2016.
+//  Created by Welltime on 15/12/2016.
 //  Copyright © 2016 Welltime. All rights reserved.
 //
 
 import UIKit
 
-class FreeSlotsTableViewCell: UITableViewCell {
+class TreatmentsTypeTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
